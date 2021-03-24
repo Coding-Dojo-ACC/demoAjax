@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var apiKey = "{{API_KEY}}"
+    var apiKey = "8ab82243dc2b9fe4c8e68d061a14e1c4"
 
 
     $('form').submit(function () {
