@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    var apiKey = "8ab82243dc2b9fe4c8e68d061a14e1c4"
+    var API_KEY = ""
 
 
     $('form').submit(function () {
         var city = $('#city').val();
         var cityString = `${city}`
 
-        var url = `https://api.openweathermap.org/data/2.5/weather?q=${cityString}&appid=${apiKey}&units=imperial`
+        var url = `https://api.openweathermap.org/data/2.5/weather?q=${cityString}&appid=${API_KEY}&units=imperial`
 
         $.get(url, function (res) {
             console.log(res)
